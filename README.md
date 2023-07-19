@@ -1,6 +1,6 @@
 # Express-hall-booking
 
-1.* To create a room url as http://localhost:8000/create-room,
+1.* To create a room url as - http://localhost:8000/create-room,
   * In post man - POST - body - raw - json then a desired data for example the data given below,
 
 {
@@ -118,3 +118,6 @@
     }
 ]
 * This is Json showing all the details.
+* In render Build command - npm i --force
+
+
