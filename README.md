@@ -13,7 +13,7 @@
  * send - Then new room will be created ,The id should be differnt if we create multipe rooms,
  * if the creation is sucessful we can see data newly added in the endpoint.
 
-2. * To book a room url as http://localhost:8000/book-room,
+2. * To book a room url as - http://localhost:8000/book-room,
    * POST- body - raw - json then a required data for example the data given below
 
    {
@@ -27,11 +27,11 @@
 * note- room_id should exist for booking as we have created rooms, anyother ids will throw error because the data will not  be present ,
 * Send- This will success message if the data is added .
 
-3.* To List customers url as http://localhost:8000/list-customer,
+3.* To List customers url as - http://localhost:8000/list-customer,
   * GET- send,
   * This will show the customers who has booked the rooms
 
-4.*To see booked rooms url as http://localhost:8000/booked-rooms,
+4.*To see booked rooms url as - http://localhost:8000/booked-rooms,
    GET - send,
    
    * The bookingDetails required will be displayed here
@@ -119,5 +119,15 @@
 ]
 * This is Json showing all the details.
 * In render Build command - npm i --force
+
+* For global host server url - https://express-hall-booking-crpc.onrender.com,
+
+* GET common       - https://express-hall-booking-crpc.onrender.com
+* Create room post - https://express-hall-booking-crpc.onrender.com/create-room
+* book room post   - https://express-hall-booking-crpc.onrender.com/book-room
+* getlist customers - https://express-hall-booking-crpc.onrender.com/list-customer
+* getbooked rooms  - https://express-hall-booking-crpc.onrender.com/booked-rooms
+
+* we can do operations with endpoints provided above.
 
 
