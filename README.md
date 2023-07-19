@@ -1,7 +1,7 @@
 # Express-hall-booking
 
-1.To create a room url as http://localhost:8000/create-room,
-  In post man - POST - body - raw - json then a desired data for example the data given below,
+1.* To create a room url as http://localhost:8000/create-room,
+  * In post man - POST - body - raw - json then a desired data for example the data given below,
 
 {
   "name": "New Room",
@@ -10,11 +10,11 @@
   "price": 3000,
   "room_id": "20030001"
 }
-  send - Then new room will be created ,The id should be differnt if we create multipe rooms,
-  if the creation is sucessful we can see data newly added in the endpoint.
+ * send - Then new room will be created ,The id should be differnt if we create multipe rooms,
+ * if the creation is sucessful we can see data newly added in the endpoint.
 
-2. To book a room url as http://localhost:8000/book-room,
-   POST- body - raw - json then a required data for example the data given below
+2. * To book a room url as http://localhost:8000/book-room,
+   * POST- body - raw - json then a required data for example the data given below
 
    {
   "customer_name": "Srikanth",
@@ -24,18 +24,17 @@
   "room_id": "20030001"
 }
 
- note- room_id should exist for booking as we have created rooms, anyother ids will throw error
- because the data will not be present ,
- Send- This will success message if the data is added .
+* note- room_id should exist for booking as we have created rooms, anyother ids will throw error because the data will not  be present ,
+* Send- This will success message if the data is added .
 
-3.To List customers url as http://localhost:8000/list-customer,
-  GET- send,
-  This will show the customers who has booked the rooms
+3.* To List customers url as http://localhost:8000/list-customer,
+  * GET- send,
+  * This will show the customers who has booked the rooms
 
-4.To see booked rooms url as http://localhost:8000/booked-rooms,
+4.*To see booked rooms url as http://localhost:8000/booked-rooms,
    GET - send,
    
-   The bookingDetails required will be displayed here
+   * The bookingDetails required will be displayed here
    [
     {
         "name": "Super-Deluxe",
@@ -118,3 +117,4 @@
         ]
     }
 ]
+* This is Json showing all the details.
